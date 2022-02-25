@@ -9,7 +9,8 @@ public class C04Type {
 		// 데이터 타입 (자료형)
 		// 기본타입(primitive) 8개
 		// 정수 
-		// byte, short, int, long
+		// byte, short, int(4), long(8) 넓은 범위에 옮기는 건 문제없이 가능. 
+		
 		
 		// 실수
 		// float, double

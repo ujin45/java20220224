@@ -15,6 +15,15 @@ public class C07TypeChar {
 		
 		int var8 = var7;
 		System.out.println(var8);
+	
 		
+		// 확인문제 5번 
+		byte byteValue = 10;
+		char charValue = 'A';
+		
+		int intValue = byteValue;
+		int intValue2 = charValue;
+//		short ShortValue = charValue2;
+		double doubleValue = byteValue;
 	}
 }
