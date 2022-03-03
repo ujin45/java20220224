@@ -10,5 +10,6 @@ public class ForSumFromTo100Example {
 		}
 		
 		System.out.println("1~100 합 : " + sum);
+		System.out.println("1~" + " 합 : " + sum);
 	}
 }

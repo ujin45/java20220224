@@ -3,7 +3,7 @@ package chap04.book;
 public class IfElseExample {
 	 public static void main(String[] args) {
 		
-		// false 이므로 else의 값이 적용됨.챠 
+		// false 이므로 else의 값이 적용됨.
 		int score = 85;
 		
 		if (score >= 90) {
