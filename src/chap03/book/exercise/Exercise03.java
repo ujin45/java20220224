@@ -1,6 +1,6 @@
 package chap03.book.exercise;
 
-public class Exercise003 {
+public class Exercise03 {
 	public static void main(String[] args) {
 		
 		int score = 85;
