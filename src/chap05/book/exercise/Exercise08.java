@@ -9,6 +9,14 @@ public class Exercise08 {
 		double avg = 0.0;
 		
 		// 배열의 전체 항목의 합과 평균값을 구하세요 (for문)
+		
+		for(int[]item : array) {
+			for(int num : item) {
+				sum += num;
+			}
+		}  // 향상된 for문 
+		
+			
 		int nums = 0;
 		for (int i=0; i < array.length; i++) {
 		  for (int j=0; j < array[i].length; i++) {
@@ -16,8 +24,9 @@ public class Exercise08 {
 		  }
 		  nums += array[i].length;  
 		}
-		avg = (double)sum / nums;
 		
+		
+		avg = (double)sum / nums;
 		System.out.println("sum: " + sum);
 		System.out.println("avg: " + avg);
 	}
