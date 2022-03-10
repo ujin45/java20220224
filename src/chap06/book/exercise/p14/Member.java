@@ -7,8 +7,15 @@ public class Member {
 	String age;
 	
 	
-	Member(String name, String id) {
-		this.name =name;
+//	Member(String name, String id) {
+//		this.name =name;
+//		this.id = id;
+//	}
+
+
+	public Member(String name, String id) {
+		super();
+		this.name = name;
 		this.id = id;
 	}
 }
