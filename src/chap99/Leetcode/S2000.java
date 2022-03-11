@@ -2,7 +2,11 @@ package chap99.Leetcode;
 
 public class S2000 {
     public String reversePrefix(String word, char ch) {
-        int index = 0;
+       
+    	// input : word = "abcdefd", ch = "d"
+    	// output : "dcbaefd"   d부터 거꾸로 나열 
+    	
+    	int index = 0;
         char[] arr = word.toCharArray();
         
         for (int i = 0; i < arr.length; i++) {
