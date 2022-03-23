@@ -160,6 +160,24 @@ public class Array2 {
 
 
 		
+		public int bigDiff3(int[] nums) {
+			  
+			  int max = Integer.MIN_VALUE;
+			  int min = Integer.MAX_VALUE;
+			  
+			  for(int num : nums){
+			    max = Math.max(max,num);
+			    min = Math.min(min,num);
+			  }
+			  
+			  return Math.abs(max - min);
+			}
+		
+		
+//		    java.util.Arrays.sort(nums);
+//		    return nums[num.length-1] - num[0];
+
+		
 		
 		public int countEvens(int[] nums) {
 			  int cnt = 0;
