@@ -26,4 +26,4 @@ public class S1200 {
 		}
 		return res;
 	}
-}
+}  
