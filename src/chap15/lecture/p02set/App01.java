@@ -34,9 +34,9 @@ public class App01 {
 		}
 		
 		
-		// Iterator
+		// Iterator : 인터페이스 
 		Iterator<String>iter = set.iterator();
-		while (iter.hasNext()) {
+		while (iter.hasNext()) {  // 읽어올 요소가 남아있는지 확인하는 메소드
 			System.out.println(iter.next());
 		}
 		
